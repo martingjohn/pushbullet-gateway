@@ -9,6 +9,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
                make \
                procmail \
                rsyslog \
+               tzdata \
     && rm -rf /var/lib/apt/lists/* \
     && cpan install \
             WWW::PushBullet \
