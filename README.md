@@ -14,4 +14,5 @@ This creates a docker container which when you send an email to the configured u
        martinjohn/pushbullet-gateway
 
 Here I've put it on a macvlan network (pub_net) with a fixed IP
+
 You probably want the EMAIL_HOST to match the dns record.
