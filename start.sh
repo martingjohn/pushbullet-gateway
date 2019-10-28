@@ -45,6 +45,7 @@ my \$pb = WWW::PushBullet->new({apikey => '$PB_KEY'});
 
 \$pb->push_note(
         {
+            device_iden => '$PB_DEVICE',
             title     => "\$subject",
             body      => "\$body"
         }
